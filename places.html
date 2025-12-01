@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Places - Go Egypt Tour</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/places.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <span class="logo-text">Go Egypt</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="places.html" class="nav-link active">Places</a></li>
+          <li><a href="trips.html" class="nav-link">Trip Packs</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="page-header-overlay"></div>
+      <div class="container">
+        <h1>Explore Egypt</h1>
+        <p>
+          [PLACEHOLDER: Discover amazing destinations across the land of
+          pharaohs]
+        </p>
+      </div>
+    </header>
+
+    <!-- Search & Filter Section -->
+    <section class="search-section">
+      <div class="container">
+        <div class="search-wrapper">
+          <div class="search-box">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search places..."
+              aria-label="Search places"
+            />
+            <button class="search-btn" aria-label="Search">🔍</button>
+          </div>
+          <div class="filter-wrapper">
+            <select id="category-filter" aria-label="Filter by category">
+              <option value="all">All Categories</option>
+              <option value="cultural">Cultural</option>
+              <option value="historical">Historical</option>
+              <option value="religious">Religious</option>
+              <option value="entertainment">Entertainment</option>
+              <option value="nature">Nature</option>
+            </select>
+            <select id="location-filter" aria-label="Filter by location">
+              <option value="all">All Locations</option>
+              <option value="cairo">Cairo</option>
+              <option value="giza">Giza</option>
+              <option value="luxor">Luxor</option>
+              <option value="aswan">Aswan</option>
+              <option value="alexandria">Alexandria</option>
+              <option value="sharm-el-sheikh">Sharm El Sheikh</option>
+              <option value="hurghada">Hurghada</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Places Grid -->
+    <section class="section places-section">
+      <div class="container">
+        <div class="results-info">
+          <span id="results-count">Loading places...</span>
+        </div>
+        <div class="places-grid" id="places-grid">
+          <!-- Cards will be rendered by JavaScript -->
+        </div>
+        <div class="no-results" id="no-results" style="display: none">
+          <div class="no-results-icon">🔍</div>
+          <h3>No Places Found</h3>
+          <p>Try adjusting your search or filter criteria</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <h3 class="footer-title">Go Egypt Tour</h3>
+            <p>
+              [PLACEHOLDER: Your gateway to discovering Egypt's timeless beauty
+              and rich heritage.]
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="places.html">Places</a></li>
+              <li><a href="trips.html">Trip Packs</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Categories</h4>
+            <ul class="footer-links">
+              <li><a href="places.html?category=cultural">Cultural</a></li>
+              <li><a href="places.html?category=historical">Historical</a></li>
+              <li><a href="places.html?category=religious">Religious</a></li>
+              <li>
+                <a href="places.html?category=entertainment">Entertainment</a>
+              </li>
+              <li><a href="places.html?category=nature">Nature</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Facebook">📘</a>
+              <a href="#" class="social-link" aria-label="Instagram">📷</a>
+              <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+              <a href="#" class="social-link" aria-label="YouTube">📺</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Go Egypt Tour. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/renderPlaces.js"></script>
+    <script src="js/search.js"></script>
+  </body>
+</html>
