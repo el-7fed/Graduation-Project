@@ -1,0 +1,524 @@
+[
+  {
+    "id": 1,
+    "name": "متحف المجوهرات الملكية",
+    "nameEn": "Royal Jewelry Museum",
+    "category": "Cultural",
+    "location": "الإسكندرية",
+    "locationEn": "Alexandria",
+    "address": "قصر الأميرة فاطمة الزهراء، منطقة زيزينيا، الإسكندرية، مصر",
+    "addressEn": "Princess Fatma Al-Zahraa Palace, Zizinia District, Alexandria, Egypt",
+    "description": "تعال اكتشف كنوز الملوك والملكات اللي عمرها ما اتعرضت للناس قبل كده! متحف فريد يعرض مجوهرات ملكية نادرة في قصر أوروبي فاخر.",
+    "descriptionEn": "Discover royal treasures that were hidden for decades! A unique museum showcasing rare jewelry inside a lavish European-style palace.",
+    "longDescription": "متحف المجوهرات الملكية هو متحف فريد من نوعه يقع في قصر الأميرة فاطمة الزهراء بمنطقة زيزينيا بالإسكندرية. تم بناء القصر في أوائل القرن العشرين وكان ملكًا للعائلة الملكية المصرية. في عام 1996 تم تحويله إلى متحف يعرض المجوهرات الملكية التي كانت تخص ملوك وملكات مصر. يعكس القصر الفخامة والمعمار الأوروبي مع حدائق واسعة وتصميم داخلي رائع. يضم المتحف مقتنيات نادرة وفاخرة تشمل مجوهرات ذهبية وفضية، ساعات ملكية، تيجان وأكسسوارات تاريخية، مع عرض قصص كل قطعة وكيف استخدمت في المناسبات الملكية.",
+    "longDescriptionEn": "The Royal Jewelry Museum occupies Princess Fatma Al-Zahraa's palace in Alexandria's Zizinia district. Built in the early 20th century for the Egyptian royal family, it was transformed into a museum in 1996 to house their priceless jewelry. The palace blends European opulence, painted ceilings, marble floors, and serene gardens. Inside you will find gold and silver sets, royal watches, crowns, and accessories, each piece accompanied by the story of the monarch who owned it.",
+    "images": [
+      "main.jpg",
+      "interior 1.jpg",
+      "interior 2.jpg",
+      "interior 3.jpg"
+    ],
+    "ticketPrice": "المصريين والعرب: 20 جنيه للكبار، 5 جنيه للطلاب | الأجانب: 220 جنيه للكبار، 110 جنيه للطلاب",
+    "ticketPriceEn": "Egyptians & Arabs: 20 EGP adults / 5 EGP students | Foreigners: 220 EGP adults / 110 EGP students",
+    "openingHours": "يوميًا من 9:00 صباحًا إلى 5:00 مساءً (آخر تذكرة: 4:00 مساءً)",
+    "openingHoursEn": "Daily 9:00 AM – 5:00 PM (last admission 4:00 PM)",
+    "heritageStory": "تم بناء القصر في أوائل القرن العشرين وكان ملكًا للعائلة الملكية المصرية. يتميز بالتصميم الأوروبي الفخم مع أسقف مزخرفة بلوحات فنية رائعة، وأرضيات رخامية، وحدائق واسعة. يعرض المتحف الجواهر المصرية والعالمية مع قصة كل قطعة وكيف استخدمت في المناسبات الملكية.",
+    "heritageStoryEn": "The palace was built in the early 1900s for the Egyptian royal family. Its lavish European interiors, frescoed ceilings, marble floors, and expansive gardens were symbols of royal life. Today each gallery tells the story of the jewels worn by Egypt's queens and princesses during state ceremonies and grand celebrations.",
+    "mapEmbed": "زيزينيا، الإسكندرية",
+    "nearbyPlaces": ["طريق الكورنيش", "منطقة سيدي جابر", "طريق الجيش القديم"],
+    "nearbyPlacesEn": ["Corniche Road", "Sidi Gaber District", "Old Army Road"],
+    "nearbyActivities": [
+      "التنزه على كورنيش الإسكندرية",
+      "زيارة قلعة قايتباي",
+      "استكشاف منطقة سيدي جابر"
+    ],
+    "nearbyActivitiesEn": [
+      "Stroll along the Alexandria Corniche",
+      "Visit the Citadel of Qaitbay",
+      "Explore the Sidi Gaber neighborhood"
+    ],
+    "highlights": [
+      "مجوهرات ذهبية وفضية نادرة",
+      "ساعات ومجوهرات ملكية",
+      "تيجان وأكسسوارات ملكية تاريخية",
+      "تصميم أوروبي فخم",
+      "أسقف مزخرفة وأرضيات رخامية",
+      "حدائق واسعة"
+    ],
+    "highlightsEn": [
+      "Rare gold and silver jewelry sets",
+      "Royal watches and accessories",
+      "Historic crowns and tiaras",
+      "Lavish European palace architecture",
+      "Painted ceilings and marble floors",
+      "Expansive landscaped gardens"
+    ],
+    "importantNotes": [
+      "الدخول مجاني لكبار السن (60 سنة فأكثر)",
+      "الدخول مجاني لذوي الاحتياجات الخاصة",
+      "الدخول مجاني للأطفال أقل من 6 سنوات",
+      "ممنوع إدخال شنط كبيرة أو أطعمة/مشروبات",
+      "ممنوع استخدام فلاش التصوير أو مؤشرات الليزر"
+    ],
+    "importantNotesEn": [
+      "Free entry for seniors (60+)",
+      "Free entry for visitors with disabilities",
+      "Children under 6 enter free",
+      "Large bags and food/drinks are not allowed",
+      "No flash or laser pointers inside the galleries"
+    ],
+    "reviews": [
+      {
+        "name": "أحمد محمود",
+        "nameEn": "Ahmed Mahmoud",
+        "rating": 5,
+        "comment": "متحف رائع! المجوهرات الملكية مذهلة والقصر نفسه تحفة معمارية.",
+        "commentEn": "Incredible museum! The royal jewelry is breathtaking and the palace itself is a masterpiece."
+      },
+      {
+        "name": "سارة علي",
+        "nameEn": "Sara Ali",
+        "rating": 4.5,
+        "comment": "تجربة فريدة لمحبي التاريخ والفن. الأسقف المزخرفة لا تُنسى!",
+        "commentEn": "A unique experience for history lovers. The painted ceilings are unforgettable!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "المتحف اليوناني الروماني",
+    "nameEn": "Graeco-Roman Museum Alexandria",
+    "category": "Historical",
+    "location": "الإسكندرية",
+    "locationEn": "Alexandria",
+    "description": "رحلة عبر الزمن ... اكتشف أسرار الإسكندرية اليونانية والرومانية",
+    "descriptionEn": "Travel back in time and uncover the secrets of Greco-Roman Alexandria.",
+    "longDescription": "تأسس المتحف اليوناني الروماني سنة 1892، ويعتبر من أقدم المتاحف في مصر. كان الهدف منه جمع الآثار اليونانية والرومانية الموجودة في مصر، خاصة من مناطق الإسكندرية والبحر المتوسط. المتحف بعد التجديد أصبح متحف حديث وجذاب للزوار، ويضم عدد كبير من التماثيل، العملات، الفسيفساء، والمقتنيات الفنية.",
+    "longDescriptionEn": "Founded in 1892, the Graeco-Roman Museum is one of Egypt's oldest museums. It was created to collect Greek and Roman artifacts unearthed across Alexandria and the Mediterranean coast. After its complete renovation, the museum now offers modern galleries filled with statues, coins, mosaics, and priceless objects that narrate Alexandria's cosmopolitan past.",
+    "images": [
+      "Graeco Roman Museum main.jpg",
+      "Graeco Roman Museum 1.jpg",
+      "Graeco Roman Museum 2.jpg",
+      "Graeco Roman Museum 3.jpg"
+    ],
+    "ticketPrice": "للمصريين والعرب: 40 جنيه للكبار - 20 جنيه للطلاب | للأجانب: 400 جنيه للكبار - 200 جنيه للطلاب",
+    "ticketPriceEn": "Egyptians & Arabs: 40 EGP adults / 20 EGP students | Foreigners: 400 EGP adults / 200 EGP students",
+    "openingHours": "من 9:00 صباحًا إلى 5:00 مساءً | الجمعة والسبت: حتى 8:00 مساءً (شباك التذاكر يغلق 7:00 مساءً) | رمضان: من 9:00 صباحًا إلى 4:00 مساءً",
+    "openingHoursEn": "9:00 AM – 5:00 PM daily | Friday & Saturday until 8:00 PM (ticket booth closes 7:00 PM) | Ramadan 9:00 AM – 4:00 PM",
+    "heritageStory": "تأسس سنة 1892، ويعتبر من أقدم المتاحف في مصر. كان الهدف منه جمع الآثار اليونانية والرومانية الموجودة في مصر، خاصة من مناطق الإسكندرية والبحر المتوسط.",
+    "heritageStoryEn": "Opened in 1892, the museum was dedicated to preserving the Greek and Roman heritage of Egypt. It became the main repository for discoveries made around Alexandria and the Mediterranean shoreline.",
+    "address": "منطقة كرموز، الإسكندرية، مصر",
+    "addressEn": "Karmouz District, Alexandria, Egypt",
+    "nearbyPlaces": ["محطة الرمل", "شارع سوريا", "كورنيش الإسكندرية"],
+    "nearbyPlacesEn": ["El Raml Square", "Syria Street", "Alexandria Corniche"],
+    "highlights": [
+      "الآثار اليونانية والرومانية النادرة: تماثيل للإلهة أفروديت، أبولو، وغيرها، فسيفساء رومانية ملونة، نقوش قديمة على الحجر",
+      "تصميم المتحف: قاعات واسعة ومنظمة بعناية، بعد الترميم أصبح المتحف جذاب للزوار المحليين والأجانب",
+      "أهمية علمية وثقافية: مكان مثالي للطلاب والباحثين في علم الآثار الكلاسيكية، يعطي فكرة عن الحياة اليومية في الإسكندرية القديمة"
+    ],
+    "highlightsEn": [
+      "Rare Greek and Roman artifacts including statues of Aphrodite and Apollo, colorful mosaics, and carved stone reliefs",
+      "Wide, carefully curated halls that were fully renovated for an immersive visitor experience",
+      "Valuable resource for students and researchers learning about daily life in ancient Alexandria"
+    ],
+    "mapEmbed": "",
+    "nearbyActivities": [
+      "زيارة محطة الرمل",
+      "التجول في شارع سوريا",
+      "الاستمتاع بكورنيش الإسكندرية"
+    ],
+    "nearbyActivitiesEn": [
+      "Visit El Raml Square",
+      "Stroll along Syria Street",
+      "Enjoy the Alexandria Corniche"
+    ],
+    "reviews": [
+      {
+        "name": "زائر",
+        "nameEn": "Visitor",
+        "rating": 5,
+        "comment": "متحف رائع يحكي تاريخ الإسكندرية اليونانية والرومانية بشكل مميز!",
+        "commentEn": "Fantastic museum that tells the Greco-Roman history of Alexandria in a vivid way!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "أهرامات الجيزة",
+    "nameEn": "Pyramids of Giza",
+    "category": "Historical",
+    "location": "الجيزة",
+    "locationEn": "Giza",
+    "description": "أحد عجائب الدنيا السبع القديمة الباقية، دليل عبقرية الهندسة الفرعونية",
+    "descriptionEn": "One of the last surviving Seven Wonders of the Ancient World and a testament to pharaonic engineering genius.",
+    "longDescription": "تقع أهرامات الجيزة في محافظة الجيزة غرب نهر النيل، على هضبة الجيزة. بُنِيت في عصر الدولة القديمة، الأسرة الرابعة حوالي سنة 2600 ق.م. تضم 3 أهرامات رئيسية: خوفو – خفرع – منقرع. كانت مقابر ملكية مصممة لحماية أجساد الملوك وضمان حياتهم في العالم الآخر. مبنية من ملايين أحجار الحجر الجيري، وهرم خوفو الأكبر ارتفاعه الأصلي 146م، أضخم بناء حجري في العالم. يضم الموقع تمثال أبو الهول المنحوت من صخرة واحدة أمام هرم خفرع.",
+    "longDescriptionEn": "Located on the Giza Plateau west of the Nile, the pyramids were built during Egypt's Old Kingdom (Fourth Dynasty around 2600 BCE). The site contains the three great pyramids of Khufu, Khafre, and Menkaure—royal tombs designed to protect the pharaohs forever. Built from millions of limestone blocks, the Great Pyramid originally rose to 146 meters, making it the tallest stone structure on earth for millennia. The site also features the Great Sphinx carved from a single rock.",
+    "images": [
+      "pyramids 1.jpg",
+      "pyramids 2.jpg",
+      "pyramids 3.jpg",
+      "pyramids 4.jpg"
+    ],
+    "ticketPrice": "تذكرة هضبة الجيزة: 200 جنيه للكبار / 100 جنيه للطلاب | دخول هرم خوفو: 400 جنيه للكبار / 200 جنيه للطلاب (قد تتغير الأسعار)",
+    "ticketPriceEn": "Giza Plateau ticket: 200 EGP adults / 100 EGP students | Great Pyramid interior: 400 EGP adults / 200 EGP students (prices subject to change)",
+    "openingHours": "يوميًا من 7:00 صباحًا إلى 5:00 مساءً (قد تختلف المواعيد حسب الموسم)",
+    "openingHoursEn": "Daily 7:00 AM – 5:00 PM (hours vary by season)",
+    "heritageStory": "بُنِيت في عصر الدولة القديمة، الأسرة الرابعة حوالي سنة 2600 ق.م. كانت مقابر ملكية مصممة لحماية أجساد الملوك وضمان حياتهم في العالم الآخر. تعتبر أحد عجائب الدنيا السبع القديمة الباقية ودليل عبقرية الهندسة الفرعونية.",
+    "heritageStoryEn": "Built during the Fourth Dynasty, the pyramids served as monumental royal tombs meant to safeguard the pharaohs and their treasures for the afterlife.",
+    "address": "هضبة الجيزة، محافظة الجيزة، غرب نهر النيل",
+    "addressEn": "Giza Plateau, Giza Governorate, west of the Nile",
+    "nearbyPlaces": ["القاهرة الكبرى", "نهر النيل"],
+    "nearbyPlacesEn": ["Greater Cairo", "Nile River"],
+    "highlights": [
+      "الهدف من بنائها: مقبرة ملكية محصّنة، رمز لقوة الملك وعبادته الإلهية، حفظ الكنوز والمتعلقات الجنائزية",
+      "الوصف المعماري: مبنية من ملايين أحجار الحجر الجيري، هرم خوفو الأكبر ارتفاعه الأصلي 146م أضخم بناء حجري في العالم، ممرات وغرف داخلية معقدة مثل غرفة الملك والملكة، تمثال أبو الهول منحوت من صخرة واحدة",
+      "الأهمية التاريخية: أحد عجائب الدنيا السبع القديمة الباقية، دليل عبقرية الهندسة الفرعونية، مصدر للمعرفة عن طقوس الدفن والعقيدة الدينية",
+      "الأهمية السياحية: من أهم المزارات في العالم، موقع تصوير عالمي، منظر غروب الشمس عند الهضبة من أقوى التجارب السياحية"
+    ],
+    "highlightsEn": [
+      "Purpose-built royal tombs symbolizing divine power and protecting funerary treasures",
+      "Architecture of millions of limestone blocks, the 146 m Great Pyramid, intricate chambers, and the Great Sphinx",
+      "Historical value as the only remaining Ancient Wonder and a key source on burial rituals",
+      "Tourism magnet with cinematic vistas and unforgettable sunsets"
+    ],
+    "mapEmbed": "",
+    "nearbyActivities": [
+      "تجربة ركوب الجمال والخيل حول الأهرامات",
+      "مشاهدة غروب الشمس عند الهضبة",
+      "التصوير في موقع عالمي مميز"
+    ],
+    "nearbyActivitiesEn": [
+      "Ride camels or horses around the pyramids",
+      "Watch the sunset over the plateau",
+      "Take iconic photos at a world-famous location"
+    ],
+    "reviews": [
+      {
+        "name": "زائر",
+        "nameEn": "Visitor",
+        "rating": 5,
+        "comment": "تجربة لا تُنسى! الأهرامات أضخم مما تتخيل ومنظر الغروب ساحر.",
+        "commentEn": "Unforgettable! The pyramids are even bigger than expected and the sunset is magical."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "المتحف القومي للحضارة المصرية",
+    "nameEn": "National Museum of Egyptian Civilization (NMEC)",
+    "category": "Historical",
+    "location": "القاهرة",
+    "locationEn": "Cairo",
+    "description": "بيت الحضارة المصرية… من أول ما المصريين عرفوا الزراعة لحد النهارده",
+    "descriptionEn": "The home of Egyptian civilization—from the dawn of agriculture to the present day.",
+    "longDescription": "افتتح المتحف القومي للحضارة المصرية سنة 2021 وأصبح أول متحف في مصر يعرض قصة الحضارة المصرية كلها من أول ما الإنسان عاش على الأرض لحد العصر الحديث. أشهر حدث حصل فيه كان موكب المومياوات الملكية لما 22 ملك وملكة اتحركوا من المتحف المصري بالتحرير للمتحف القومي في احتفالية عالمية.",
+    "longDescriptionEn": "Opened in 2021, the National Museum of Egyptian Civilization is the first institution to narrate Egypt's story from prehistoric times to the modern era. It gained worldwide attention during the Royal Mummies Parade, when 22 royal mummies were transferred from Tahrir to NMEC in a spectacular ceremony.",
+    "images": ["NMEC main.jpg", "NMEC 1.jpg", "NMEC 2.jpg", "NMEC 3.jpg"],
+    "ticketPrice": "للمصريين: 60 جنيه للكبار - 30 جنيه للطلاب - 200 جنيه لقاعة المومياوات + التذكرة الأساسية | للأجانب: 240 جنيه للكبار - 120 جنيه للطلاب",
+    "ticketPriceEn": "Egyptians: 60 EGP adults / 30 EGP students – Royal Mummies Hall requires an extra 200 EGP | Foreigners: 240 EGP adults / 120 EGP students",
+    "openingHours": "من 9:00 صباحًا إلى 5:00 مساءً | الجمعة من 9:00 إلى 5:00 ثم من 6:00 إلى 9:00 مساءً أحيانًا | أفضل وقت: الظهر للتصوير أو بالليل لمنظر البحيرة",
+    "openingHoursEn": "9:00 AM – 5:00 PM daily | Fridays sometimes reopen 6:00 – 9:00 PM | Best times: midday for photos or evening for lake views",
+    "heritageStory": "افتتح سنة 2021 وأصبح أول متحف في مصر يعرض قصة الحضارة المصرية كلها. أشهر حدث كان موكب المومياوات الملكية لما 22 ملك وملكة اتحركوا من المتحف المصري بالتحرير للمتحف القومي في احتفالية عالمية.",
+    "heritageStoryEn": "Since 2021 NMEC has presented the full arc of Egyptian civilization. The Royal Mummies Parade that moved 22 kings and queens here cemented it as a global cultural landmark.",
+    "address": "الفسطاط – القاهرة القديمة",
+    "addressEn": "Fustat district, Old Cairo",
+    "nearbyPlaces": [
+      "بحيرة عين الصيرة",
+      "الكنيسة المعلقة",
+      "مسجد عمرو بن العاص",
+      "حديقة الفسطاط الجديدة"
+    ],
+    "nearbyPlacesEn": [
+      "Ain El-Sira Lake",
+      "The Hanging Church",
+      "Amr Ibn Al-As Mosque",
+      "New Fustat Park"
+    ],
+    "highlights": [
+      "قاعة المومياوات الملكية: من أهم قاعات المتاحف في العالم! بتعرض مومياوات رمسيس الثاني، تحتمس الثالث، حتشبسوت، سقنن رع وملوك كتير غيرهم. الإضاءة والصوت والتنظيم عاملين تجربة رهيبة",
+      "تاريخ مصر في 7 حضارات: العصر الفرعوني، اليوناني الروماني، القبطي، الإسلامي، الحديث، ومعروضات نادرة مش موجودة في أي حتة",
+      "تصميم حديث جدًا: مبنى ضخم – قاعات واسعة – طرق عرض عالمية. مناسب للصور جدًا من بره وجوه",
+      "بحيرة عين الصيرة: منظر البحيرة قدام المتحف وصلّحوا المنطقة بالكامل… قعدة وتصوير شبه خيالي",
+      "عروض تفاعلية: فيديوهات – شاشات – خرائط – شرح مبسّط"
+    ],
+    "highlightsEn": [
+      "Royal Mummies Hall showcasing Ramses II, Hatshepsut, and more with immersive lighting and narration",
+      "Seven eras of Egyptian history displayed through rare artifacts",
+      "Striking contemporary architecture with photo-friendly exteriors and interiors",
+      "Views over Ain El-Sira Lake after the area's full revitalization",
+      "Interactive media including films, touchscreens, and simplified explanations"
+    ],
+    "mapEmbed": "",
+    "nearbyActivities": [
+      "زيارة الكنيسة المعلقة",
+      "زيارة مسجد عمرو بن العاص",
+      "التنزه في حديقة الفسطاط الجديدة",
+      "الاستمتاع بمنظر بحيرة عين الصيرة"
+    ],
+    "nearbyActivitiesEn": [
+      "Tour the Hanging Church",
+      "Visit Amr Ibn Al-As Mosque",
+      "Walk through New Fustat Park",
+      "Relax by Ain El-Sira Lake"
+    ],
+    "reviews": [
+      {
+        "name": "زائر",
+        "nameEn": "Visitor",
+        "rating": 5,
+        "comment": "متحف عالمي! قاعة المومياوات الملكية تجربة لا تُنسى والتصميم مبهر جدًا.",
+        "commentEn": "World-class museum! The Royal Mummies Hall is unforgettable and the architecture is stunning."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "بقايا قصر الأمير عمر طوسون",
+    "nameEn": "Prince Omar Toussoun Palace Remains",
+    "category": "Historical",
+    "location": "الإسكندرية",
+    "locationEn": "Alexandria",
+    "description": "شوف بقايا واحد من أكبر قصور الإسكندرية الملكية… اللي لسه صامدة وسط الزحمة!",
+    "descriptionEn": "See the remains of one of Alexandria's grandest palaces, still standing amid the bustling city.",
+    "longDescription": "القصر بُني في أوائل القرن الـ20 وكان من ممتلكات الأمير عمر طوسون، أحد كبار رجال العائلة الملكية. هُدم أغلبه بعد الثورة وبقيت أجزاء حجرية وأسوار عالية فقط.",
+    "longDescriptionEn": "Built in the early 20th century for Prince Omar Toussoun, a prominent member of Egypt's royal family, the palace was largely demolished after the revolution. Only stone fragments and towering walls remain, hinting at its former scale.",
+    "images": ["Omar Toussoun main.jpg", "Omar Toussoun 1.jpg"],
+    "ticketPrice": "مجاني – زيارة خارجية فقط",
+    "ticketPriceEn": "Free – exterior visit only",
+    "openingHours": "متاح في الشارع طوال اليوم",
+    "openingHoursEn": "Visible from the street all day",
+    "heritageStory": "القصر بُني في أوائل القرن الـ20 وكان من ممتلكات الأمير عمر طوسون، أحد كبار رجال العائلة الملكية. هُدم أغلبه بعد الثورة وبقيت أجزاء حجرية وأسوار عالية فقط.",
+    "heritageStoryEn": "An early 1900s royal palace that was mostly torn down post-revolution, leaving atmospheric ruins that capture Alexandria's aristocratic past.",
+    "address": "منطقة الورديان – شارع الأمير عمر طوسون – الإسكندرية",
+    "addressEn": "Wardian district, Prince Omar Toussoun Street, Alexandria",
+    "nearbyPlaces": ["ميناء الدخيلة", "شارع المكس", "سوق الورديان"],
+    "nearbyPlacesEn": ["Dekheila Port", "El-Maks Street", "Wardian Market"],
+    "highlights": [
+      "عمارة ملكية نادرة: أعمدة ضخمة – بوابة حجرية – زخارف أوروبية",
+      "حجم القصر الأصلي: رغم الهدم، جزء السور يكشف ضخامة التصميم",
+      "طابع درامي للتصوير: مناسب جدًا لتصوير تاريخي/سينمائي"
+    ],
+    "highlightsEn": [
+      "Rare royal architecture with towering columns, a stone gate, and European flourishes",
+      "Remaining walls reveal the tremendous footprint of the original palace",
+      "Moody backdrop ideal for historical or cinematic photo shoots"
+    ],
+    "importantNotes": ["الدخول للداخل غير مسموح", "التصوير الخارجي مسموح"],
+    "importantNotesEn": [
+      "No interior access",
+      "Exterior photography is allowed"
+    ],
+    "mapEmbed": "",
+    "nearbyActivities": [
+      "التصوير الخارجي للبقايا المعمارية",
+      "زيارة سوق الورديان",
+      "استكشاف منطقة الورديان التاريخية"
+    ],
+    "nearbyActivitiesEn": [
+      "Photograph the exterior ruins",
+      "Visit Wardian Market",
+      "Explore the historic Wardian neighborhood"
+    ],
+    "reviews": [
+      {
+        "name": "زائر",
+        "nameEn": "Visitor",
+        "rating": 4,
+        "comment": "مكان مميز للتصوير ويحكي قصة العائلة الملكية في الإسكندرية.",
+        "commentEn": "Great spot for photography and a reminder of Alexandria's royal history."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "كنيسة مارمرقس القديمة",
+    "nameEn": "Old St. Mark Church",
+    "category": "Religious",
+    "location": "الإسكندرية",
+    "locationEn": "Alexandria",
+    "description": "النسخة الأصلية القديمة… مخفية في الأزاريطة!",
+    "descriptionEn": "The original, smaller version of St. Mark's—hidden away in Al Azaritah!",
+    "longDescription": "النسخة الأصغر والأقدم قبل بناء الكنيسة الحالية الكبيرة. تتميز بصغر الحجم بطريقة نادرة ونقوش خشبية قديمة، مكان مغلق لكن له هيبة خاصة.",
+    "longDescriptionEn": "This is the smaller, older iteration of St. Mark's Church that predates the grand modern building. Though closed, its compact proportions and carved wooden details give it a unique aura.",
+    "images": [
+      "St. Mark Church main.jpg",
+      "St. Mark Church 1.jpg",
+      "St. Mark Church 2.jpg",
+      "St. Mark Church 3.jpg"
+    ],
+    "ticketPrice": "مجاني",
+    "ticketPriceEn": "Free",
+    "openingHours": "غير مفتوحة – رؤية خارجية فقط",
+    "openingHoursEn": "Closed to the public – exterior viewing only",
+    "heritageStory": "النسخة الأصغر والأقدم من كنيسة مارمرقس قبل بناء الكنيسة الحالية الكبيرة.",
+    "heritageStoryEn": "The earlier, smaller St. Mark's Church that served the community before the current cathedral was erected.",
+    "address": "الأزاريطة الخلفية – شارع جانبي من الترام",
+    "addressEn": "Backstreets of Al Azaritah, off the tram line",
+    "nearbyPlaces": ["كلية الطب", "ترام الأزاريطة", "مستشفى الشاطبي"],
+    "nearbyPlacesEn": [
+      "Faculty of Medicine",
+      "Al Azaritah Tram",
+      "El Shatby Hospital"
+    ],
+    "highlights": [
+      "صغر الحجم بطريقة نادرة",
+      "نقوش خشبية قديمة",
+      "مكان مغلق لكن له هيبة"
+    ],
+    "highlightsEn": [
+      "Unusually small historic chapel",
+      "Old wooden carvings on the façade",
+      "Closed site that still radiates reverence"
+    ],
+    "importantNotes": ["التصوير الخارجي فقط"],
+    "importantNotesEn": ["Exterior photography only"],
+    "mapEmbed": "",
+    "nearbyActivities": [
+      "التصوير الخارجي للكنيسة",
+      "زيارة كلية الطب",
+      "التنزه في منطقة الأزاريطة"
+    ],
+    "nearbyActivitiesEn": [
+      "Photograph the church exterior",
+      "Walk by the Faculty of Medicine",
+      "Stroll through the Al Azaritah neighborhood"
+    ],
+    "reviews": [
+      {
+        "name": "زائر",
+        "nameEn": "Visitor",
+        "rating": 4,
+        "comment": "مكان تاريخي مميز ومخفي! نقوش قديمة جميلة.",
+        "commentEn": "Hidden historic gem! The old carvings are beautiful."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "مسجد الأمير طاز – القسم الخلفي",
+    "nameEn": "Prince Taz Mosque - Back Section",
+    "category": "Religious",
+    "location": "القاهرة",
+    "locationEn": "Cairo",
+    "description": "قسم خلفي أثرى من المعروف للجمهور!",
+    "descriptionEn": "A hidden rear section of Prince Taz Mosque reserved for researchers.",
+    "longDescription": "القسم الخلفي لمسجد الأمير طاز مفتوح عادة للباحثين فقط، له زخارف نادرة من العصر المملوكي. يتميز بزخارف حجرية دقيقة وأرضيات رخامية قديمة، مكان تصوير خلاب وهام للتاريخيين.",
+    "longDescriptionEn": "The restricted rear section of Prince Taz Mosque is usually accessible only to researchers. It preserves rare Mamluk-era decorations with finely carved stonework and aged marble floors, making it a dream location for historians and photographers.",
+    "images": ["taz main.jpg", "taz 1.jpg", "taz 2.jpg"],
+    "ticketPrice": "زيارة خارجية فقط",
+    "ticketPriceEn": "Exterior viewing only",
+    "openingHours": "مغلق للعموم",
+    "openingHoursEn": "Closed to the public",
+    "heritageStory": "القسم الخلفي لمسجد الأمير طاز مفتوح عادة للباحثين فقط، له زخارف نادرة من العصر المملوكي.",
+    "heritageStoryEn": "This back section preserves rare Mamluk artistry and typically opens only for scholarly study.",
+    "address": "شارع المعز – القاهرة",
+    "addressEn": "Al-Muizz Street, Cairo",
+    "nearbyPlaces": ["شارع المعز", "خان الخليلي", "مسجد الحاكم بأمر الله"],
+    "nearbyPlacesEn": ["Al-Muizz Street", "Khan El-Khalili", "Al-Hakim Mosque"],
+    "highlights": [
+      "زخارف حجرية دقيقة",
+      "أرضيات رخامية قديمة",
+      "مكان تصوير خلاب وهام للتاريخيين"
+    ],
+    "highlightsEn": [
+      "Intricately carved Mamluk stonework",
+      "Historic marble flooring",
+      "Atmospheric location prized by historians and photographers"
+    ],
+    "importantNotes": ["لا يسمح بالدخول"],
+    "importantNotesEn": ["Entry not permitted"],
+    "mapEmbed": "",
+    "nearbyActivities": [
+      "التجول في شارع المعز",
+      "زيارة خان الخليلي",
+      "زيارة مسجد الحاكم بأمر الله"
+    ],
+    "nearbyActivitiesEn": [
+      "Walk along Al-Muizz Street",
+      "Explore Khan El-Khalili",
+      "Visit Al-Hakim bi-Amr Allah Mosque"
+    ],
+    "reviews": [
+      {
+        "name": "زائر",
+        "nameEn": "Visitor",
+        "rating": 4,
+        "comment": "زخارف مملوكية نادرة! مكان تاريخي مميز للباحثين والمصورين.",
+        "commentEn": "Rare Mamluk decorations! A special site for researchers and photographers."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "دار الأوبرا المصرية",
+    "nameEn": "Cairo Opera House",
+    "category": "Entertainment",
+    "location": "القاهرة",
+    "locationEn": "Cairo",
+    "description": "قلب الفن الراقي في مصر… حيث الموسيقى والباليه والمسرح يجتمعوا في مكان واحد",
+    "descriptionEn": "Egypt's cultural heart where music, ballet, theater, and art converge in one iconic venue.",
+    "longDescription": "افتُتحت دار الأوبرا المصرية سنة 1988 كهدية من الحكومة اليابانية بعد حريق دار الأوبرا الخديوية القديمة. ومن وقتها أصبحت المركز الرئيسي للفنون في مصر: موسيقى – باليه – حفلات عربية وغربية – مسرح – معارض فنون. التصميم مزيج بين الفن الياباني الحديث واللمسة المصرية الراقية.",
+    "longDescriptionEn": "Opened in 1988 as a gift from Japan after the old Khedivial opera burned down, the Cairo Opera House has since become Egypt's premier arts hub. Its halls host classical concerts, ballet, Arab music, theater, and art exhibitions, all within architecture that blends modern Japanese inspiration with elegant Egyptian touches.",
+    "images": [
+      "opera-house main.jpg",
+      "opera-house 1.jpg",
+      "opera-house 2.jpg"
+    ],
+    "ticketPrice": "من 50 جنيه لحد 500 جنيه حسب العرض والمكان | العروض الكبيرة (الباليه والأوبرا العالمية) أعلى",
+    "ticketPriceEn": "Tickets range from 50 to 500 EGP depending on the performance and seating; flagship ballet and opera nights cost more",
+    "openingHours": "المكان مفتوح طول اليوم للزوار | الحفلات من 7:00 – 8:00 مساءً (حسب جدول الشهر)",
+    "openingHoursEn": "Grounds open all day | Performances typically start between 7:00 and 8:00 PM per monthly schedule",
+    "heritageStory": "افتُتحت سنة 1988 كهدية من الحكومة اليابانية بعد حريق دار الأوبرا الخديوية القديمة. أصبحت المركز الرئيسي للفنون في مصر.",
+    "heritageStoryEn": "Since 1988 the Opera House has symbolized Egypt's artistic revival, replacing the lost Khedivial opera with a state-of-the-art cultural complex.",
+    "address": "جزيرة الزمالك – القاهرة",
+    "addressEn": "Zamalek Island, Cairo",
+    "nearbyPlaces": [
+      "دار الأوبرا القديمة",
+      "متحف الفن الحديث",
+      "ساحة الهناجر",
+      "كوبري قصر النيل"
+    ],
+    "nearbyPlacesEn": [
+      "Old Opera House site",
+      "Museum of Modern Art",
+      "Al Hanager Arts Center",
+      "Qasr El-Nil Bridge"
+    ],
+    "highlights": [
+      "قاعات عرض ضخمة واحترافية: المسرح الكبير، المسرح الصغير، مسرح الجمهورية – تجهيزات صوت وإضاءة عالمية",
+      "عروض متنوعة طول السنة: أوبرا – باليه – حفلات كلاسيك – حفلات عربية – مسرح – عزف منفرد – مهرجانات",
+      "ساحة الهناجر: مساحة للفن التشكيلي والمعارض المعاصرة",
+      "جو رايق ومختلف: المكان شكله نظيف وراقي ومناسب جدًا للمواعيد الهادية والخروجات الهادفة",
+      "مكتبة الموسيقى: فيها أرشيف نادر من الكتب والمقطوعات الموسيقية"
+    ],
+    "highlightsEn": [
+      "Multiple world-class halls including the Main Theater, Small Theater, and Republic Theater",
+      "Year-round programming covering opera, ballet, classical, Arabic concerts, theater, solo recitals, and festivals",
+      "Al Hanager Arts Center for contemporary exhibitions",
+      "Serene, upscale grounds perfect for meaningful outings",
+      "Specialized music library with rare scores and books"
+    ],
+    "mapEmbed": "",
+    "nearbyActivities": [
+      "حضور حفل موسيقي أو باليه",
+      "زيارة متحف الفن الحديث",
+      "التجول في ساحة الهناجر",
+      "المشي على كوبري قصر النيل"
+    ],
+    "nearbyActivitiesEn": [
+      "Attend a concert or ballet",
+      "Visit the Museum of Modern Art",
+      "Explore Al Hanager Arts Center",
+      "Walk across Qasr El-Nil Bridge"
+    ],
+    "reviews": [
+      {
+        "name": "زائر",
+        "nameEn": "Visitor",
+        "rating": 5,
+        "comment": "مكان راقي جدًا! العروض عالمية والأجواء مميزة للخروجات الثقافية.",
+        "commentEn": "Extremely elegant venue! World-class shows and the perfect atmosphere for cultural outings."
+      }
+    ]
+  }
+]

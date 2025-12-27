@@ -1,0 +1,548 @@
+/* ============================================
+   Go Egypt Tour - Places Page Styles
+   ============================================ */
+
+/* Search Section */
+.search-section {
+  background: var(--color-beige);
+  padding: var(--spacing-xl) 0;
+  margin-top: -1px;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box {
+  display: flex;
+  flex: 1;
+  max-width: 500px;
+  background: var(--color-white);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.search-box input {
+  flex: 1;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border: none;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+.search-btn {
+  background: var(--color-gold);
+  border: none;
+  padding: var(--spacing-md) var(--spacing-lg);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.search-btn:hover {
+  background: var(--color-gold-dark);
+}
+
+.filter-wrapper {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.filter-wrapper select {
+  padding: var(--spacing-md) var(--spacing-lg);
+  border: 2px solid var(--color-white);
+  border-radius: var(--radius-xl);
+  background: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.filter-wrapper select:focus {
+  outline: none;
+  border-color: var(--color-gold);
+}
+
+/* Places Section */
+.places-section {
+  background: var(--color-white);
+}
+
+.results-info {
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-gray);
+}
+
+/* No Results */
+.no-results {
+  text-align: center;
+  padding: var(--spacing-xxl);
+}
+
+.no-results-icon {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-md);
+  opacity: 0.5;
+}
+
+.no-results h3 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.no-results p {
+  color: var(--color-gray);
+}
+
+/* ============================================
+   Place Details Page Styles
+   ============================================ */
+
+.place-details-page {
+  margin-top: 60px;
+}
+
+/* Loading State */
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  gap: var(--spacing-lg);
+}
+
+.loading-state p {
+  color: var(--color-gray);
+}
+
+/* Error State */
+.error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+  padding: var(--spacing-xl);
+}
+
+.error-icon {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.error-state h2 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.error-state p {
+  color: var(--color-gray);
+  margin-bottom: var(--spacing-xl);
+}
+
+/* Place Hero */
+.place-hero {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.gallery-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-slider .gallery-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.gallery-slider .gallery-slide.active {
+  opacity: 1;
+}
+
+.gallery-slider .gallery-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-controls {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.gallery-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: var(--color-white);
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.gallery-btn:hover {
+  background: var(--color-gold);
+  color: var(--color-black);
+}
+
+.gallery-dots {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.gallery-dots .dot {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.gallery-dots .dot.active,
+.gallery-dots .dot:hover {
+  background: var(--color-gold);
+}
+
+.place-hero-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  padding: var(--spacing-xxl) 0;
+  z-index: 2;
+}
+
+.place-category {
+  display: inline-block;
+  background: var(--color-gold);
+  color: var(--color-black);
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-xl);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+}
+
+.place-title {
+  color: var(--color-white);
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.place-location {
+  color: var(--color-beige);
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+/* Place Details Grid */
+.place-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: var(--spacing-xxl);
+  padding: var(--spacing-xxl) 0;
+}
+
+.place-main {
+  min-width: 0;
+}
+
+/* Details Sections */
+.details-section {
+  margin-bottom: var(--spacing-xxl);
+}
+
+.details-section h2 {
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-beige);
+}
+
+.details-section p {
+  color: var(--color-gray-dark);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* Heritage Section */
+.heritage-section {
+  background: var(--color-beige);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+}
+
+.heritage-section h2 {
+  border-bottom-color: var(--color-sand);
+}
+
+.heritage-content {
+  color: var(--color-gray-dark);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-md);
+}
+
+.gallery-grid .gallery-item {
+  aspect-ratio: 1;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-grid .gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-normal);
+}
+
+.gallery-grid .gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/* Reviews Section */
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.review-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-beige);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.reviewer-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius-full);
+  background: var(--color-beige);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.reviewer-name {
+  font-weight: 600;
+}
+
+.review-rating {
+  color: var(--color-gold);
+  font-size: 1.1rem;
+}
+
+.review-comment {
+  color: var(--color-gray);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Sidebar */
+.place-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.sidebar-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--spacing-lg);
+}
+
+.sidebar-card h3 {
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-beige);
+  font-size: 1.1rem;
+}
+
+/* Info Card */
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.info-list li {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.info-label {
+  font-size: 0.875rem;
+  color: var(--color-gray);
+}
+
+.info-value {
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+/* Map Card */
+.map-card .map-placeholder {
+  height: 200px;
+  background: var(--color-beige);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.map-card .map-placeholder img {
+  max-height: 80px;
+  opacity: 0.5;
+  margin-bottom: var(--spacing-sm);
+}
+
+.map-card .map-placeholder p {
+  color: var(--color-gray);
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+/* Activities Card */
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.activities-list li {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  background: var(--color-beige);
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+}
+
+.activities-list li::before {
+  content: "→";
+  color: var(--color-gold);
+}
+
+/* Highlights Section */
+.highlights-section {
+  background: linear-gradient(
+    135deg,
+    var(--color-gold) 0%,
+    var(--color-gold-dark) 100%
+  );
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  color: var(--color-black);
+}
+
+.highlights-section h2 {
+  color: var(--color-black);
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+
+.highlights-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--spacing-md);
+  list-style: none;
+}
+
+.highlights-list li {
+  background: rgba(255, 255, 255, 0.9);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+/* Notes Section */
+.notes-section {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+}
+
+.notes-section h2 {
+  color: #856404;
+  border-bottom-color: #ffc107;
+}
+
+.notes-list {
+  list-style: none;
+}
+
+.notes-list li {
+  padding: var(--spacing-sm) 0;
+  color: #856404;
+  font-size: 0.95rem;
+  border-bottom: 1px dashed rgba(133, 100, 4, 0.2);
+}
+
+.notes-list li:last-child {
+  border-bottom: none;
+}
+
+/* Address Card */
+.address-card p {
+  color: var(--color-gray-dark);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}

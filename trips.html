@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>باقات الرحلات - Tour in Egypt</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="rtl">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <img
+            src="assets/images/logo english.png"
+            data-logo-ar="assets/images/logo arabic.png"
+            data-logo-en="assets/images/logo english.png"
+            alt="Tour in Egypt"
+            class="site-logo"
+          />
+          <span class="sr-only" data-i18n="logoText">جوله في مصر</span>
+        </a>
+        <ul class="nav-menu">
+          <li>
+            <a href="index.html" class="nav-link" data-i18n="home">الرئيسية</a>
+          </li>
+          <li>
+            <a href="places.html" class="nav-link" data-i18n="places"
+              >الأماكن</a
+            >
+          </li>
+          <li>
+            <a href="trips.html" class="nav-link active" data-i18n="tripPacks"
+              >باقات الرحلات</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="nav-link" data-i18n="about"
+              >عن المشروع</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link" data-i18n="contact"
+              >تواصل معنا</a
+            >
+          </li>
+        </ul>
+        <div class="nav-actions">
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+          </button>
+          <button
+            class="lang-toggle"
+            id="lang-toggle"
+            aria-label="Toggle Language"
+          >
+            EN
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="page-header-overlay"></div>
+      <div class="container">
+        <h1 data-i18n="tripPacksTitle">باقات الرحلات</h1>
+        <p data-i18n="tripPacksSubtitle">
+          اختار رحلتك المثالية لاستكشاف مصر من الأهرامات للمتاحف
+        </p>
+      </div>
+    </header>
+
+    <!-- Trip Packs Content -->
+    <main class="trips-page">
+      <div class="container">
+        <!-- 2-Hour Tour -->
+        <section class="trip-section">
+          <div class="trip-card">
+            <div class="trip-header">
+              <span class="trip-badge" data-i18n="quickTour">جولة سريعة</span>
+              <h2 data-i18n="twoHourTour">🕐 جولة ساعتين</h2>
+            </div>
+            <div class="trip-content">
+              <div class="trip-image">
+                <img
+                  src="assets/images/main.jpg"
+                  alt="جولة ساعتين - متحف المجوهرات الملكية"
+                />
+              </div>
+              <div class="trip-details">
+                <div class="trip-info">
+                  <div class="info-item">
+                    <span class="info-icon">⏱️</span>
+                    <div>
+                      <strong data-i18n="duration">المدة</strong>
+                      <p data-i18n="twoHourDurationValue">ساعتين</p>
+                    </div>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-icon">💰</span>
+                    <div>
+                      <strong data-i18n="estimatedCost"
+                        >التكلفة التقديرية</strong
+                      >
+                      <p data-i18n="twoHourCostValue">150 - 300 جنيه</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="trip-activities">
+                  <h4 data-i18n="activitiesIncluded">الأنشطة المتضمنة:</h4>
+                  <ul>
+                    <li data-i18n="twoHourActivity1">
+                      جولة سريعة في متحف المجوهرات الملكية
+                    </li>
+                    <li data-i18n="twoHourActivity2">
+                      تصوير المجوهرات الذهبية والفضية النادرة
+                    </li>
+                    <li data-i18n="twoHourActivity3">
+                      مشاهدة الأسقف المزخرفة والأرضيات الرخامية
+                    </li>
+                  </ul>
+                </div>
+                <div class="trip-places">
+                  <h4 data-i18n="recommendedPlaces">الأماكن الموصى بها:</h4>
+                  <div class="place-tags">
+                    <a
+                      href="place-details.html?id=1"
+                      class="place-tag"
+                      data-i18n="royalJewelryMuseum"
+                      >متحف المجوهرات الملكية</a
+                    >
+                    <a
+                      href="place-details.html?id=6"
+                      class="place-tag"
+                      data-i18n="oldStMarkChurch"
+                      >كنيسة مارمرقس القديمة</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Half-Day Tour -->
+        <section class="trip-section">
+          <div class="trip-card">
+            <div class="trip-header">
+              <span class="trip-badge popular" data-i18n="mostPopular"
+                >الأكثر شعبية</span
+              >
+              <h2 data-i18n="halfDayTour">🌤️ جولة نصف يوم</h2>
+            </div>
+            <div class="trip-content">
+              <div class="trip-image">
+                <img
+                  src="assets/images/NMEC main.jpg"
+                  alt="جولة نصف يوم - المتحف القومي للحضارة"
+                />
+              </div>
+              <div class="trip-details">
+                <div class="trip-info">
+                  <div class="info-item">
+                    <span class="info-icon">⏱️</span>
+                    <div>
+                      <strong data-i18n="duration">المدة</strong>
+                      <p data-i18n="halfDayDurationValue">4-5 ساعات</p>
+                    </div>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-icon">💰</span>
+                    <div>
+                      <strong data-i18n="estimatedCost"
+                        >التكلفة التقديرية</strong
+                      >
+                      <p data-i18n="halfDayCostValue">400 - 700 جنيه</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="trip-activities">
+                  <h4 data-i18n="activitiesIncluded">الأنشطة المتضمنة:</h4>
+                  <ul>
+                    <li data-i18n="halfDayActivity1">
+                      زيارة قاعة المومياوات الملكية في المتحف القومي للحضارة
+                    </li>
+                    <li data-i18n="halfDayActivity2">
+                      التجول في شارع المعز وزيارة مسجد الأمير طاز
+                    </li>
+                    <li data-i18n="halfDayActivity3">
+                      الاستمتاع بمنظر بحيرة عين الصيرة
+                    </li>
+                    <li data-i18n="halfDayActivity4">
+                      استكشاف خان الخليلي والأسواق التقليدية
+                    </li>
+                  </ul>
+                </div>
+                <div class="trip-places">
+                  <h4 data-i18n="recommendedPlaces">الأماكن الموصى بها:</h4>
+                  <div class="place-tags">
+                    <a
+                      href="place-details.html?id=4"
+                      class="place-tag"
+                      data-i18n="nmec"
+                      >المتحف القومي للحضارة</a
+                    >
+                    <a
+                      href="place-details.html?id=7"
+                      class="place-tag"
+                      data-i18n="princeTazMosque"
+                      >مسجد الأمير طاز</a
+                    >
+                    <a
+                      href="place-details.html?id=8"
+                      class="place-tag"
+                      data-i18n="cairoOperaHouse"
+                      >دار الأوبرا المصرية</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Full Day Tour -->
+        <section class="trip-section">
+          <div class="trip-card">
+            <div class="trip-header">
+              <span class="trip-badge featured" data-i18n="featured">مميز</span>
+              <h2 data-i18n="fullDayTour">☀️ جولة يوم كامل</h2>
+            </div>
+            <div class="trip-content">
+              <div class="trip-image">
+                <img
+                  src="assets/images/pyramids 1.jpg"
+                  alt="جولة يوم كامل - أهرامات الجيزة"
+                />
+              </div>
+              <div class="trip-details">
+                <div class="trip-info">
+                  <div class="info-item">
+                    <span class="info-icon">⏱️</span>
+                    <div>
+                      <strong data-i18n="duration">المدة</strong>
+                      <p data-i18n="fullDayDurationValue">8-10 ساعات</p>
+                    </div>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-icon">💰</span>
+                    <div>
+                      <strong data-i18n="estimatedCost"
+                        >التكلفة التقديرية</strong
+                      >
+                      <p data-i18n="fullDayCostValue">800 - 1500 جنيه</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="trip-activities">
+                  <h4 data-i18n="activitiesIncluded">الأنشطة المتضمنة:</h4>
+                  <ul>
+                    <li data-i18n="fullDayActivity1">
+                      زيارة أهرامات الجيزة وتمثال أبو الهول
+                    </li>
+                    <li data-i18n="fullDayActivity2">
+                      ركوب الجمال والخيل حول الأهرامات
+                    </li>
+                    <li data-i18n="fullDayActivity3">
+                      مشاهدة غروب الشمس عند الهضبة
+                    </li>
+                    <li data-i18n="fullDayActivity4">
+                      زيارة المتحف القومي للحضارة وقاعة المومياوات
+                    </li>
+                    <li data-i18n="fullDayActivity5">
+                      حضور عرض في دار الأوبرا المصرية
+                    </li>
+                  </ul>
+                </div>
+                <div class="trip-places">
+                  <h4 data-i18n="recommendedPlaces">الأماكن الموصى بها:</h4>
+                  <div class="place-tags">
+                    <a
+                      href="place-details.html?id=3"
+                      class="place-tag"
+                      data-i18n="gizaPyramids"
+                      >أهرامات الجيزة</a
+                    >
+                    <a
+                      href="place-details.html?id=4"
+                      class="place-tag"
+                      data-i18n="nmec"
+                      >المتحف القومي للحضارة</a
+                    >
+                    <a
+                      href="place-details.html?id=8"
+                      class="place-tag"
+                      data-i18n="cairoOperaHouse"
+                      >دار الأوبرا المصرية</a
+                    >
+                    <a
+                      href="place-details.html?id=7"
+                      class="place-tag"
+                      data-i18n="princeTazMosque"
+                      >مسجد الأمير طاز</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Weekend Trip -->
+        <section class="trip-section">
+          <div class="trip-card">
+            <div class="trip-header">
+              <span class="trip-badge premium" data-i18n="premium"
+                >بريميوم</span
+              >
+              <h2 data-i18n="weekendTrip">🌅 رحلة نهاية الأسبوع</h2>
+            </div>
+            <div class="trip-content">
+              <div class="trip-image">
+                <img
+                  src="assets/images/Graeco Roman Museum main.jpg"
+                  alt="رحلة نهاية الأسبوع - الإسكندرية"
+                />
+              </div>
+              <div class="trip-details">
+                <div class="trip-info">
+                  <div class="info-item">
+                    <span class="info-icon">⏱️</span>
+                    <div>
+                      <strong data-i18n="duration">المدة</strong>
+                      <p data-i18n="weekendDurationValue">2-3 أيام</p>
+                    </div>
+                  </div>
+                  <div class="info-item">
+                    <span class="info-icon">💰</span>
+                    <div>
+                      <strong data-i18n="estimatedCost"
+                        >التكلفة التقديرية</strong
+                      >
+                      <p data-i18n="weekendCostValue">2000 - 5000 جنيه</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="trip-activities">
+                  <h4 data-i18n="activitiesIncluded">الأنشطة المتضمنة:</h4>
+                  <ul>
+                    <li data-i18n="weekendActivity1">
+                      استكشاف القاهرة والإسكندرية في رحلة واحدة
+                    </li>
+                    <li data-i18n="weekendActivity2">
+                      زيارة المتحف اليوناني الروماني والمجوهرات الملكية
+                    </li>
+                    <li data-i18n="weekendActivity3">
+                      التنزه على كورنيش الإسكندرية وزيارة قلعة قايتباي
+                    </li>
+                    <li data-i18n="weekendActivity4">
+                      استكشاف بقايا قصر الأمير عمر طوسون
+                    </li>
+                    <li data-i18n="weekendActivity5">
+                      زيارة كنيسة مارمرقس القديمة والأماكن الدينية
+                    </li>
+                    <li data-i18n="weekendActivity6">
+                      التسوق في خان الخليلي وسوق الورديان
+                    </li>
+                  </ul>
+                </div>
+                <div class="trip-places">
+                  <h4 data-i18n="recommendedPlaces">الأماكن الموصى بها:</h4>
+                  <div class="place-tags">
+                    <a
+                      href="place-details.html?id=1"
+                      class="place-tag"
+                      data-i18n="royalJewelryMuseum"
+                      >متحف المجوهرات الملكية</a
+                    >
+                    <a
+                      href="place-details.html?id=2"
+                      class="place-tag"
+                      data-i18n="graecoRomanMuseum"
+                      >المتحف اليوناني الروماني</a
+                    >
+                    <a
+                      href="place-details.html?id=3"
+                      class="place-tag"
+                      data-i18n="gizaPyramids"
+                      >أهرامات الجيزة</a
+                    >
+                    <a
+                      href="place-details.html?id=4"
+                      class="place-tag"
+                      data-i18n="nmec"
+                      >المتحف القومي للحضارة</a
+                    >
+                    <a
+                      href="place-details.html?id=5"
+                      class="place-tag"
+                      data-i18n="princeOmarToussounPalace"
+                      >قصر عمر طوسون</a
+                    >
+                    <a
+                      href="place-details.html?id=6"
+                      class="place-tag"
+                      data-i18n="oldStMarkChurch"
+                      >كنيسة مارمرقس</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="trips-cta">
+          <div class="cta-content">
+            <h2 data-i18n="readyToExplore">جاهز تستكشف مصر؟</h2>
+            <p data-i18n="startPlanning">
+              ابدأ التخطيط لمغامرتك المصرية اللي مش هتتنسى النهارده - من
+              الأهرامات للمتاحف للأماكن الدينية والترفيهية
+            </p>
+            <a
+              href="places.html"
+              class="btn btn-primary"
+              data-i18n="discoverPlaces"
+              >اكتشف الأماكن</a
+            >
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <h3 class="footer-title" data-i18n="logoText">جوله في مصر</h3>
+            <p data-i18n="footerDesc">
+              بوابتك لاكتشاف جمال مصر الخالد وتراثها العريق من الأهرامات إلى
+              المتاحف العالمية.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4 data-i18n="quickLinks">روابط سريعة</h4>
+            <ul class="footer-links">
+              <li><a href="index.html" data-i18n="home">الرئيسية</a></li>
+              <li><a href="places.html" data-i18n="places">الأماكن</a></li>
+              <li>
+                <a href="trips.html" data-i18n="tripPacks">باقات الرحلات</a>
+              </li>
+              <li><a href="about.html" data-i18n="about">عن المشروع</a></li>
+              <li><a href="contact.html" data-i18n="contact">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4 data-i18n="categories">الفئات</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="places.html?category=cultural" data-i18n="cultural"
+                  >ثقافي</a
+                >
+              </li>
+              <li>
+                <a href="places.html?category=historical" data-i18n="historical"
+                  >تاريخي</a
+                >
+              </li>
+              <li>
+                <a href="places.html?category=religious" data-i18n="religious"
+                  >ديني</a
+                >
+              </li>
+              <li>
+                <a
+                  href="places.html?category=entertainment"
+                  data-i18n="entertainment"
+                  >ترفيهي</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Tour in Egypt.
+            <span data-i18n="allRightsReserved">جميع الحقوق محفوظة</span>.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ui.js"></script>
+  </body>
+</html>

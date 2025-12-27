@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تواصل معنا - Tour in Egypt</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="rtl">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <img
+            src="assets/images/logo english.png"
+            data-logo-ar="assets/images/logo arabic.png"
+            data-logo-en="assets/images/logo english.png"
+            alt="Tour in Egypt"
+            class="site-logo"
+          />
+          <span class="sr-only" data-i18n="logoText">جوله في مصر</span>
+        </a>
+        <ul class="nav-menu">
+          <li>
+            <a href="index.html" class="nav-link" data-i18n="home">الرئيسية</a>
+          </li>
+          <li>
+            <a href="places.html" class="nav-link" data-i18n="places"
+              >الأماكن</a
+            >
+          </li>
+          <li>
+            <a href="trips.html" class="nav-link" data-i18n="tripPacks"
+              >باقات الرحلات</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="nav-link" data-i18n="about"
+              >عن المشروع</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link active" data-i18n="contact"
+              >تواصل معنا</a
+            >
+          </li>
+        </ul>
+        <div class="nav-actions">
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+          </button>
+          <button
+            class="lang-toggle"
+            id="lang-toggle"
+            aria-label="Toggle Language"
+          >
+            EN
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="page-header-overlay"></div>
+      <div class="container">
+        <h1 data-i18n="contactUs">تواصل معنا</h1>
+        <p data-i18n="contactSubtitle">تواصل معنا لأي استفسار أو اقتراح</p>
+      </div>
+    </header>
+
+    <!-- Contact Content -->
+    <main class="contact-page">
+      <div class="container">
+        <!-- Contact Introduction -->
+        <div class="contact-intro">
+          <div class="contact-intro-icon">💬</div>
+          <h2 data-i18n="loveToHear">نحب نسمع منك!</h2>
+          <p data-i18n="contactIntroDesc">
+            عندك سؤال أو اقتراح أو ملاحظة؟ ابعتلنا رسالة وهنرد عليك في أقرب وقت
+          </p>
+        </div>
+
+        <!-- Contact Form Centered -->
+        <div class="contact-form-wrapper">
+          <section class="contact-form-section">
+            <h2 data-i18n="sendMessageTitle">📧 ابعتلنا رسالة</h2>
+            <form class="contact-form" id="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" data-i18n="name">الاسم</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="اكتب اسمك هنا"
+                    data-i18n-placeholder="namePlaceholder"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" data-i18n="email">البريد الإلكتروني</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@email.com"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject" data-i18n="subject">الموضوع</label>
+                <select id="subject" name="subject" required>
+                  <option value="" data-i18n="selectSubject">
+                    اختر موضوع الرسالة
+                  </option>
+                  <option value="general" data-i18n="generalInquiry">
+                    استفسار عام
+                  </option>
+                  <option value="feedback" data-i18n="feedback">
+                    ملاحظات واقتراحات
+                  </option>
+                  <option value="partnership" data-i18n="partnership">
+                    تعاون وشراكة
+                  </option>
+                  <option value="support" data-i18n="technicalSupport">
+                    دعم فني
+                  </option>
+                  <option value="other" data-i18n="other">أخرى</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message" data-i18n="message">الرسالة</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="اكتب رسالتك هنا..."
+                  data-i18n-placeholder="messagePlaceholder"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-large">
+                <span data-i18n="sendBtn">إرسال الرسالة</span>
+                <span class="btn-icon">📤</span>
+              </button>
+            </form>
+            <div class="form-success" id="form-success" style="display: none">
+              <div class="success-icon">✅</div>
+              <h3 data-i18n="messageSent">تم إرسال رسالتك بنجاح!</h3>
+              <p data-i18n="thankYou">
+                شكراً لتواصلك معنا. هنرد عليك في أقرب وقت ممكن.
+              </p>
+              <a
+                href="index.html"
+                class="btn btn-secondary"
+                data-i18n="backToHome"
+                >العودة للرئيسية</a
+              >
+            </div>
+          </section>
+        </div>
+
+        <!-- Contact Features -->
+        <div class="contact-features">
+          <div class="contact-feature">
+            <div class="feature-icon">⚡</div>
+            <h4 data-i18n="quickResponse">رد سريع</h4>
+            <p data-i18n="quickResponseDesc">بنرد على الرسائل خلال 24 ساعة</p>
+          </div>
+          <div class="contact-feature">
+            <div class="feature-icon">💡</div>
+            <h4 data-i18n="yourSuggestions">اقتراحاتك مهمة</h4>
+            <p data-i18n="yourSuggestionsDesc">نحب نسمع أفكارك لتحسين الموقع</p>
+          </div>
+          <div class="contact-feature">
+            <div class="feature-icon">🤝</div>
+            <h4 data-i18n="continuousSupport">دعم متواصل</h4>
+            <p data-i18n="continuousSupportDesc">فريقنا جاهز لمساعدتك</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <h3 class="footer-title" data-i18n="logoText">جوله في مصر</h3>
+            <p data-i18n="footerDesc">
+              بوابتك لاكتشاف جمال مصر الخالد وتراثها العريق من الأهرامات إلى
+              المتاحف العالمية.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4 data-i18n="quickLinks">روابط سريعة</h4>
+            <ul class="footer-links">
+              <li><a href="index.html" data-i18n="home">الرئيسية</a></li>
+              <li><a href="places.html" data-i18n="places">الأماكن</a></li>
+              <li>
+                <a href="trips.html" data-i18n="tripPacks">باقات الرحلات</a>
+              </li>
+              <li><a href="about.html" data-i18n="about">عن المشروع</a></li>
+              <li><a href="contact.html" data-i18n="contact">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4 data-i18n="categories">الفئات</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="places.html?category=cultural" data-i18n="cultural"
+                  >ثقافي</a
+                >
+              </li>
+              <li>
+                <a href="places.html?category=historical" data-i18n="historical"
+                  >تاريخي</a
+                >
+              </li>
+              <li>
+                <a href="places.html?category=religious" data-i18n="religious"
+                  >ديني</a
+                >
+              </li>
+              <li>
+                <a
+                  href="places.html?category=entertainment"
+                  data-i18n="entertainment"
+                  >ترفيهي</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Tour in Egypt.
+            <span data-i18n="allRightsReserved">جميع الحقوق محفوظة</span>.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ui.js"></script>
+    <script>
+      // Simple form handling
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          document.getElementById("contact-form").style.display = "none";
+          document.getElementById("form-success").style.display = "block";
+        });
+    </script>
+  </body>
+</html>

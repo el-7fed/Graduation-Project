@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تفاصيل المكان - Tour in Egypt</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/places.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="rtl">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <img
+            src="assets/images/logo english.png"
+            data-logo-ar="assets/images/logo arabic.png"
+            data-logo-en="assets/images/logo english.png"
+            alt="Tour in Egypt"
+            class="site-logo"
+          />
+          <span class="sr-only" data-i18n="logoText">جوله في مصر</span>
+        </a>
+        <ul class="nav-menu">
+          <li>
+            <a href="index.html" class="nav-link" data-i18n="home">الرئيسية</a>
+          </li>
+          <li>
+            <a href="places.html" class="nav-link" data-i18n="places"
+              >الأماكن</a
+            >
+          </li>
+          <li>
+            <a href="trips.html" class="nav-link" data-i18n="tripPacks"
+              >باقات الرحلات</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="nav-link" data-i18n="about"
+              >عن المشروع</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link" data-i18n="contact"
+              >تواصل معنا</a
+            >
+          </li>
+        </ul>
+        <div class="nav-actions">
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+          </button>
+          <button
+            class="lang-toggle"
+            id="lang-toggle"
+            aria-label="Toggle Language"
+          >
+            EN
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Place Details Content -->
+    <main class="place-details-page">
+      <!-- Loading State -->
+      <div class="loading-state" id="loading-state">
+        <div class="loader"></div>
+        <p data-i18n="loading">جاري تحميل التفاصيل...</p>
+      </div>
+
+      <!-- Error State -->
+      <div class="error-state" id="error-state" style="display: none">
+        <div class="error-icon">❌</div>
+        <h2 data-i18n="placeNotFound">المكان غير موجود</h2>
+        <p data-i18n="placeNotFoundDesc">
+          المكان الذي تبحث عنه غير موجود أو تم إزالته.
+        </p>
+        <a
+          href="places.html"
+          class="btn btn-primary"
+          data-i18n="browseAllPlaces"
+          >تصفح جميع الأماكن</a
+        >
+      </div>
+
+      <!-- Place Content (Populated by JS) -->
+      <article class="place-content" id="place-content" style="display: none">
+        <!-- Hero Gallery -->
+        <section class="place-hero">
+          <div class="gallery-slider" id="gallery-slider">
+            <!-- Images will be inserted by JS -->
+          </div>
+          <div class="gallery-controls">
+            <button class="gallery-btn prev" aria-label="Previous image">
+              &#10094;
+            </button>
+            <div class="gallery-dots" id="gallery-dots"></div>
+            <button class="gallery-btn next" aria-label="Next image">
+              &#10095;
+            </button>
+          </div>
+          <div class="place-hero-overlay">
+            <div class="container">
+              <span class="place-category" id="place-category"></span>
+              <h1 class="place-title" id="place-title"></h1>
+              <p class="place-location" id="place-location">📍 <span></span></p>
+            </div>
+          </div>
+        </section>
+
+        <div class="container">
+          <div class="place-details-grid">
+            <!-- Main Content -->
+            <div class="place-main">
+              <!-- Description -->
+              <section class="details-section">
+                <h2 data-i18n="aboutThisPlace">عن هذا المكان</h2>
+                <p id="place-description"></p>
+              </section>
+
+              <!-- Highlights -->
+              <section
+                class="details-section highlights-section"
+                id="highlights-section"
+                style="display: none"
+              >
+                <h2 data-i18n="highlightsTitle">✨ أهم ما يميز المكان</h2>
+                <ul class="highlights-list" id="highlights-list">
+                  <!-- Highlights will be inserted by JS -->
+                </ul>
+              </section>
+
+              <!-- Heritage Story -->
+              <section class="details-section heritage-section">
+                <h2 data-i18n="heritageStory">📜 قصة التراث</h2>
+                <div class="heritage-content" id="place-heritage"></div>
+              </section>
+
+              <!-- Important Notes -->
+              <section
+                class="details-section notes-section"
+                id="notes-section"
+                style="display: none"
+              >
+                <h2 data-i18n="importantNotes">⚠️ ملاحظات مهمة</h2>
+                <ul class="notes-list" id="notes-list">
+                  <!-- Notes will be inserted by JS -->
+                </ul>
+              </section>
+
+              <!-- Image Gallery Grid -->
+              <section class="details-section">
+                <h2 data-i18n="gallery">📸 معرض الصور</h2>
+                <div class="gallery-grid" id="gallery-grid">
+                  <!-- Thumbnails will be inserted by JS -->
+                </div>
+              </section>
+
+              <!-- Reviews -->
+              <section class="details-section reviews-section">
+                <h2 data-i18n="visitorReviews">⭐ تقييمات الزوار</h2>
+                <div class="reviews-list" id="reviews-list">
+                  <!-- Reviews will be inserted by JS -->
+                </div>
+              </section>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="place-sidebar">
+              <!-- Quick Info -->
+              <div class="sidebar-card info-card">
+                <h3 data-i18n="quickInfo">📋 معلومات سريعة</h3>
+                <ul class="info-list">
+                  <li>
+                    <span class="info-label" data-i18n="openingHours"
+                      >🕐 ساعات العمل</span
+                    >
+                    <span class="info-value" id="opening-hours"></span>
+                  </li>
+                  <li>
+                    <span class="info-label" data-i18n="ticketPrice"
+                      >🎫 سعر التذكرة</span
+                    >
+                    <span class="info-value" id="ticket-price"></span>
+                  </li>
+                  <li>
+                    <span class="info-label" data-i18n="locationLabel"
+                      >📍 الموقع</span
+                    >
+                    <span class="info-value" id="sidebar-location"></span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Nearby Activities -->
+              <div class="sidebar-card activities-card">
+                <h3 data-i18n="nearbyActivities">🎯 الأنشطة القريبة</h3>
+                <ul class="activities-list" id="nearby-activities">
+                  <!-- Activities will be inserted by JS -->
+                </ul>
+              </div>
+
+              <!-- Address -->
+              <div
+                class="sidebar-card address-card"
+                id="address-card"
+                style="display: none"
+              >
+                <h3 data-i18n="address">📍 العنوان</h3>
+                <p id="full-address"></p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <h3 class="footer-title" data-i18n="logoText">جوله في مصر</h3>
+            <p data-i18n="footerDescription">
+              بوابتك لاكتشاف جمال مصر الخالد وتراثها العريق من الأهرامات إلى
+              المتاحف العالمية.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4 data-i18n="quickLinks">روابط سريعة</h4>
+            <ul class="footer-links">
+              <li><a href="index.html" data-i18n="home">الرئيسية</a></li>
+              <li><a href="places.html" data-i18n="places">الأماكن</a></li>
+              <li>
+                <a href="trips.html" data-i18n="tripPacks">باقات الرحلات</a>
+              </li>
+              <li><a href="about.html" data-i18n="about">عن المشروع</a></li>
+              <li><a href="contact.html" data-i18n="contact">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4 data-i18n="categories">التصنيفات</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="places.html?category=cultural" data-i18n="cultural"
+                  >ثقافي</a
+                >
+              </li>
+              <li>
+                <a href="places.html?category=historical" data-i18n="historical"
+                  >تاريخي</a
+                >
+              </li>
+              <li>
+                <a href="places.html?category=religious" data-i18n="religious"
+                  >ديني</a
+                >
+              </li>
+              <li>
+                <a
+                  href="places.html?category=entertainment"
+                  data-i18n="entertainment"
+                  >ترفيهي</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p data-i18n="footerCopyright">
+            &copy; 2025 جوله في مصر. جميع الحقوق محفوظة.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/placeDetails.js"></script>
+  </body>
+</html>
